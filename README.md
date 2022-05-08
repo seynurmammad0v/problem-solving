@@ -1,2 +1,2 @@
 # problem-solving
-This repo for keep solved problem on LeetCode and HackerRank 
+This repo for keep solved problems on LeetCode and HackerRank 
