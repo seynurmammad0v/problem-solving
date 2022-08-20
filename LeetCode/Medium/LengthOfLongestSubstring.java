@@ -7,7 +7,7 @@ import java.util.Map;
 //        Output: 3
 //        Explanation: The answer is "abc", with the length of 3.
 
-public class Main {
+public class LengthOfLongestSubstring {
     public static int lengthOfLongestSubstring(String s) {
         Map<Character, Integer> lastI = new HashMap<>();
         long validator = 1L;
@@ -36,16 +36,17 @@ public class Main {
         }
         return Math.max(maxChCount, chCount);
     }
+
     //test cases
     public static void main(String[] args) {
-        System.out.printf("Expected: 2 \nActual:\t  %s\n",lengthOfLongestSubstring("aab"));
-        System.out.printf("Expected: 3 \nActual:\t  %s\n",lengthOfLongestSubstring("dvdf"));
-        System.out.printf("Expected: 4 \nActual:\t  %s\n",lengthOfLongestSubstring("tmmmzuxt"));
-        System.out.printf("Expected: 3 \nActual:\t  %s\n",lengthOfLongestSubstring("abcabcbb"));
-        System.out.printf("Expected: 1 \nActual:\t  %s\n",lengthOfLongestSubstring("bbbbbbb"));
-        System.out.printf("Expected: 3 \nActual:\t  %s\n",lengthOfLongestSubstring("pwwkew"));
-        System.out.printf("Expected: 6 \nActual:\t  %s\n",lengthOfLongestSubstring("wobgrovw"));
-        System.out.printf("Expected: 3 \nActual:\t  %s\n",lengthOfLongestSubstring("aabaab!bb"));
-        System.out.printf("Expected: 55 \nActual:\t  %s\n",lengthOfLongestSubstring("hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"));
+        System.out.printf("Expected: 2 \nActual:\t  %s\n", lengthOfLongestSubstring("aab"));
+        System.out.printf("Expected: 3 \nActual:\t  %s\n", lengthOfLongestSubstring("dvdf"));
+        System.out.printf("Expected: 4 \nActual:\t  %s\n", lengthOfLongestSubstring("tmmmzuxt"));
+        System.out.printf("Expected: 3 \nActual:\t  %s\n", lengthOfLongestSubstring("abcabcbb"));
+        System.out.printf("Expected: 1 \nActual:\t  %s\n", lengthOfLongestSubstring("bbbbbbb"));
+        System.out.printf("Expected: 3 \nActual:\t  %s\n", lengthOfLongestSubstring("pwwkew"));
+        System.out.printf("Expected: 6 \nActual:\t  %s\n", lengthOfLongestSubstring("wobgrovw"));
+        System.out.printf("Expected: 3 \nActual:\t  %s\n", lengthOfLongestSubstring("aabaab!bb"));
+        System.out.printf("Expected: 55 \nActual:\t  %s\n", lengthOfLongestSubstring("hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789hijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"));
     }
 }

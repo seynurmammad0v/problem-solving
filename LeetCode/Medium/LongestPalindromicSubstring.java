@@ -10,7 +10,7 @@
 //        Output: "bb"
 //Runtime: 141 ms, faster than 39.75% of Java online submissions for Longest Palindromic Substring.
 //Memory Usage: 41.8 MB, less than 98.93% of Java online submissions for Longest Palindromic Substring.
-public class Solution {
+public class LongestPalindromicSubstring {
     public static String longestPalindrome(String s) {
         char[] chArr = s.toCharArray();
         String res = s.substring(0, 1);
@@ -35,6 +35,7 @@ public class Solution {
         }
         return true;
     }
+
     //test cases
     public static void main(String[] args) {
         System.out.println(longestPalindrome("babad"));
