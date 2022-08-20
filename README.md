@@ -4,8 +4,11 @@ This repo for keeping solved problems on LeetCode and HackerRank
 
 Solved problems list:
 |LeetCode|
-| # | Title | Solution | Difficulty |
-|---| ----- | -------- | ---------- |
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)| [Java](./LeetCode/Java/twoSum/Main.java)|Easy|
-|2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)| [GO](./LeetCode/Go/addTwoNumbers/main.go)|Medium|
-|3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/lengthOfLongestSubstring/Main.java)| [Java](./LeetCode/Java/)|Medium|
+| # | Title | Difficulty |
+|---| ----- | ---------- |
+|1|[Two Sum] | Easy |
+|2|[Add Two Numbers] | Medium |
+|3|[Longest Substring Without Repeating Characters] |Medium|
+|5|[Longest Palindromic Substring] | Easy |
+|9|[Palindrome Number] | Easy |
+|13|[Roman to Integer] | Easy |
