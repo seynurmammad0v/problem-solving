@@ -13,3 +13,4 @@ Solved problems list:
 |9|[Palindrome Number] | Easy |
 |13|[Roman to Integer] | Easy |
 |14|[Longest Common Prefix] | Easy |
+|21|[Merge Two Sorted Lists] | Easy |
